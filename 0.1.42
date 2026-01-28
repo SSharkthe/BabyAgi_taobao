@@ -1,0 +1,22 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting llama-cpp-python
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e4/b4/c8cd17629ced0b9644a71d399a91145aedef109c0333443bef015e45b704/llama_cpp_python-0.3.16.tar.gz (50.7 MB)
+     ---------------------------------------- 50.7/50.7 MB 1.8 MB/s  0:00:29
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: typing-extensions>=4.5.0 in d:\conda\envs\babyagi_env\lib\site-packages (from llama-cpp-python) (4.15.0)
+Requirement already satisfied: numpy>=1.20.0 in d:\conda\envs\babyagi_env\lib\site-packages (from llama-cpp-python) (2.2.6)
+Collecting diskcache>=5.6.1 (from llama-cpp-python)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3f/27/4570e78fc0bf5ea0ca45eb1de3818a23787af9b390c0b0a0033a1b8236f9/diskcache-5.6.3-py3-none-any.whl (45 kB)
+Requirement already satisfied: jinja2>=2.11.3 in d:\conda\envs\babyagi_env\lib\site-packages (from llama-cpp-python) (3.1.6)
+Requirement already satisfied: MarkupSafe>=2.0 in d:\conda\envs\babyagi_env\lib\site-packages (from jinja2>=2.11.3->llama-cpp-python) (3.0.3)
+Building wheels for collected packages: llama-cpp-python
+  Building wheel for llama-cpp-python (pyproject.toml): started
+  Building wheel for llama-cpp-python (pyproject.toml): finished with status 'error'
+Failed to build llama-cpp-python
